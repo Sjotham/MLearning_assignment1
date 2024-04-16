@@ -91,7 +91,7 @@ def load_data():
 def main():
     train_loader, test_loader = load_data()
     model = NeuralNet()
-    optimizer = optim.SGD(model.parameters(), lr=0.1, weight_decay=0.001, momentum=0.1)
+    optimizer = optim.SGD(model.parameters(), lr=0.1, weight_decay=0.0001, momentum=0.1)
     print("Training model...")
     train_model(train_loader, model, nn.CrossEntropyLoss(), optimizer)
     print("Testing model...")
