@@ -1,0 +1,5 @@
+setup.py
+classifier.py.egg-info/PKG-INFO
+classifier.py.egg-info/SOURCES.txt
+classifier.py.egg-info/dependency_links.txt
+classifier.py.egg-info/top_level.txt
